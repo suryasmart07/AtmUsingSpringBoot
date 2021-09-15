@@ -24,7 +24,7 @@ public void Test() {
 	entity.setCard("1234567890123456");
 	entity.setPin("1234");
 	assertEquals("withdrawl successfull",val.validate(entity));
-	verify(val.validate(entity));
+	
 	
 }
 
